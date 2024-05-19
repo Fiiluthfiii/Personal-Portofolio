@@ -1,0 +1,616 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+*,
+html body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: #ffffff00;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav div p {
+  color: #000000;
+  font-size: 22px;
+  transition: all 0.3s ease;
+}
+
+nav div img {
+  width: 50px;
+  border-radius: 100%;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  transition: all 0.3s ease-in-out;
+  padding: 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  color: #5bbcff;
+  border-bottom: 1px solid #5bbcff;
+}
+
+.menu-icon {
+  color: black;
+  font-size: 28px;
+  display: none;
+  cursor: pointer;
+}
+
+/*------- END NAVBAR --------*/
+
+/*------- START ABOUT ME --------*/
+
+#home {
+  padding-top: 3rem;
+}
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+  padding: 2rem 3rem;
+}
+
+.container .content p {
+  margin-top: 5px;
+}
+
+.blur {
+  position: absolute;
+  box-shadow: 0 0 850px 100px #5bbcff;
+  z-index: -100;
+}
+
+header {
+  position: relative;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+
+header .content h1 {
+  color: #000000;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+header div img {
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
+}
+
+header div .button {
+  border-radius: 25px;
+  background-color: #5bbcff;
+  padding: 10px 12px;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+header div .button:hover {
+  background: #ffffff;
+  border: 1px solid #5bbcff;
+  color: #5bbcff;
+}
+
+header div button .arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*------- End Home -------*/
+
+/*------- START TOOLS & SKILL -------*/
+
+#skill {
+  padding-bottom: 5rem;
+}
+
+.blure {
+  position: absolute;
+  right: 0;
+  box-shadow: 0 0 850px 100px #5bbcff;
+  z-index: -100;
+}
+
+section div.menu-skill h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  padding-top: 6rem;
+}
+
+section div.menu-tools {
+  padding: 0 7rem;
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+section div .jurusan {
+  text-align: center;
+}
+
+section div .jurusan .icon-python {
+  width: 60px;
+  height: 60px;
+}
+
+section div .jurusan .icon-html {
+  width: 60px;
+  height: 60px;
+}
+
+section div .jurusan .icon-bootsrap {
+  width: 60px;
+  height: 60px;
+}
+
+section div .jurusan .icon-photoshop {
+  width: 50px;
+  height: 50px;
+}
+
+section div .jurusan .icon-ilustration {
+  width: 50px;
+  height: 50px;
+}
+
+section div .jurusan .icon-canva {
+  width: 65px;
+  height: 65px;
+}
+
+section div .jurusan h4 {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+section div .jurusan p {
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+/*-------- END TOOLS & SKILLS -------*/
+
+/*-------- START PROJECT -------*/
+
+#portofolios {
+  padding-bottom: 5rem;
+}
+
+section .portofolios h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  padding-top: 6rem;
+}
+
+.grid-3 {
+  padding: 0 7rem;
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.portofolio {
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid #f1f1f1;
+}
+
+.portofolio-cover {
+  height: 250px;
+}
+
+.portofolio-cover img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.portofolio-info {
+  padding: 2rem 1.5rem;
+}
+
+.portofolio-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.portofolio h4 {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.portofolio-title a svg {
+  color: #000000;
+  transition: 0.3s ease-in-out;
+}
+
+.portofolio-title a svg:hover {
+  fill: #5bbcff;
+}
+
+.portofolio-tags {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.portofolio-tags div {
+  border: 1px solid #cfcfcf;
+  font-size: 0.9rem;
+  padding: 0.4rem 1rem;
+  color: #656d72;
+}
+
+/*----- END PROJECT ------*/
+
+/*------ START CONTACT ------*/
+
+#contact {
+  padding-bottom: 5rem;
+}
+
+.contact {
+  min-height: 100wh;
+  padding: 50px;
+  text-align: center;
+}
+
+.menu-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.menu-container h1 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  padding-top: 5rem;
+}
+
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  gap: 5rem;
+}
+
+.contact-form {
+  text-align: left;
+}
+
+.menu-from {
+  margin-bottom: 20px;
+}
+
+.contact-form h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #a3a3a3;
+  background-color: #f8f9fa;
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 8px #bbb;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+form button {
+  display: inline-block;
+  width: 100%;
+  padding: 12px;
+  background-color: #c0d6e8;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+form button:hover {
+  background-color: #7ea1ff;
+}
+
+.contact-info {
+  text-align: left;
+}
+
+.contact-info h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.contact-info p i.ph {
+  color: #333;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+/*------- END CONTACT ------*/
+
+/*------- START SAY-HI ------*/
+
+#say-hi {
+  padding-bottom: 5rem;
+}
+
+.say-hi {
+  min-height: 100wh;
+  padding: 50px;
+  text-align: center;
+}
+
+.menu-container-sayhi {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.menu-container-sayhi h1 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  padding-top: 5rem;
+}
+
+section div .icon-sosmed .menu-sosmed {
+  width: 50px;
+  height: 50px;
+}
+
+section .menu-container-sayhi .icon-sosmed {
+  gap: 50px;
+}
+
+/*------- END SAY-HI ------*/
+
+/*------- START FOOTER ------*/
+
+footer {
+  background-color: #202a37;
+}
+
+.footerContainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.sosialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.sosialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 60%;
+}
+
+.footerNav {
+  margin: 30px 0;
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+
+.footerBottom {
+  background-color: #121a24;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerBottom p {
+  color: white;
+}
+
+.designer {
+  opacity: 0.7s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0 5px;
+}
+
+/*------- END FOOTER ------*/
+
+@media only screen and (max-width: 768px) {
+  /*---------  START NAVBAR ---------*/
+
+  nav {
+    flex-wrap: wrap;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav ul.hidden {
+    display: none;
+  }
+
+  .menu-icon {
+    display: flex;
+    align-items: center;
+  }
+
+  /*---------  END NAVBAR ---------*/
+
+  /*---------  START ABOUT ME ---------*/
+
+  header {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .container {
+    padding: 1rem 2rem;
+  }
+
+  header .content h1 {
+    font-size: 1.08rem;
+    margin-bottom: 10px;
+  }
+
+  header div img {
+    width: 320px;
+    height: 320px;
+  }
+
+  header div .button {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  .container .content p {
+    font-size: 15px;
+  }
+
+  /*---------  END ABOUT ME ---------*/
+
+  /*---------  START TOOLS & SKILLS ---------*/
+
+  section div.menu-tools {
+    grid-template-columns: 1fr;
+  }
+
+  section div.menu-skill h1 {
+    font-size: 2.3rem;
+  }
+
+  /*---------  END TOOLS & SKILLS ---------*/
+
+  /*---------  START PROJECT ---------*/
+  .grid-3 {
+    grid-template-columns: 1fr;
+    padding: 0 3rem;
+  }
+
+  section .portofolios h1 {
+    font-size: 2.7rem;
+  }
+
+  .portofolio-cover img {
+    height: 80%;
+  }
+
+  /*---------  END TOOLS & SKILLS ---------*/
+
+  /*---------  START CONTACT ---------*/
+
+  .menu-container {
+    padding: 20px;
+  }
+
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-container h1 {
+    font-size: 2.7rem;
+  }
+
+  /*------- START SAY HI --------*/
+
+  .menu-container-sayhi h1 {
+    font-size: 2.5rem;
+  }
+
+  section div .icon-sosmed .menu-sosmed {
+    width: 40px;
+    height: 40px;
+  }
+
+  /*------- END SAY HI --------*/
+
+  /*------- START FOOTER --------*/
+  .footerNav ul {
+    flex-direction: column;
+  }
+
+  .footerNav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+}

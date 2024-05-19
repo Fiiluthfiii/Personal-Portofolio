@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+    <title>Portofolio</title>
+  </head>
+  <body>
+    <!-------- START NAVBAR --------->
+
+    <nav>
+      <div>
+        <img src="/pictures/my-pictures.png" alt="my-pictures" />
+        <p>FIILUTHFIII</p>
+      </div>
+      <div class="menu-icon" id="menu-icon">
+        <i class="ph ph-list"></i>
+      </div>
+      <ul id="menu-list" class="hidden">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skill">Experince</a></li>
+        <li><a href="#portofolios">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-------- END NAVBAR --------->
+
+    <!-------- START ABOUT ME --------->
+
+    <header class="container" id="home">
+      <div class="content">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <h1>
+          Hi, Saya <span class="my-name">Firman </span><br />
+          Mahasiswa <span class="my-jurusan">Informatics Engineering</span
+          ><br />di Institut Teknologi Sumatera
+        </h1>
+        <p>
+          Hai perkenalkan saya Firman Luthfiansyah. Saat ini saya adalah Calon Mahasiswa Institut Teknologi Sumatera dengan jurusan Teknik Informatika dan saya lulusan sekolah SMA Taman Harapan 1 Kota Bekasi.
+        </p>
+        <button class="button">
+          Selengkapnya
+          <div class="arrow">
+            <i class="ph ph-arrow-right"></i>
+          </div>
+        </button>
+      </div>
+      <div class="image">
+        <img src="/pictures/my-image.jpg" />
+      </div>
+    </header>
+
+    <!-------- END ABOUT ME --------->
+
+    <!-------- START SKILL & TOOLS --------->
+
+    <section class="menu-skill-tools" id="skill">
+      <div class="skill">
+        <div class="menu-skill">
+          <span class="blure"></span>
+          <span class="blure"></span>
+          <h1>Tools & Skills</h1>
+        </div>
+        <div class="menu-tools">
+          <div class="jurusan">
+            <box-icon class="icon-python" type="logo" name="python"></box-icon>
+            <h4>Python</h4>
+            <p>
+              Saya sudah mempelajari bahasa pemrograman Python sejak tahun 2021 - 2023.
+            </p>
+          </div>
+          <div class="jurusan">
+            <box-icon class="icon-html" type="logo" name="html5"></box-icon>
+            <h4>HTML</h4>
+            <p>
+              Teknologi HTML saya sangat sering menggunakannya, saya mempelajari Teknologi HTML sejak 2021 - Sekarang.
+            </p>
+          </div>
+          <div class="jurusan">
+            <box-icon
+              class="icon-bootsrap"
+              name="bootstrap"
+              type="logo"></box-icon>
+            <h4>Bootstrap</h4>
+            <p>
+              Framework Bootstrap sering kali saya gunakan untuk membuat program design web untuk mempermudah.
+            </p>
+          </div>
+        </div>
+        <div class="menu-tools">
+          <div class="jurusan">
+            <img class="icon-photoshop" src="/pictures/my-photoshop.png" />
+            <h4>Adobe Photoshop</h4>
+            <p>
+              Aplikasi Software untuk mengedit Logo dan design Baju sering kali saya gunakan, saya sudah menggunakan aplikasi software ini sejak 2019 - Sekarang.
+            </p>
+          </div>
+          <div class="jurusan">
+            <img class="icon-ilustration" src="/pictures/my-ilustration.png" />
+            <h4>Adobe Ilustrator</h4>
+            <p>
+              Sama halnya fungsi aplikasi software Adobe Photoshop. saya sudah menggunakannya sejak 2023 - Sekarang.
+            </p>
+          </div>
+          <div class="jurusan">
+            <svg
+              class="icon-canva"
+              fill="#000000"
+              viewBox="0 0 24 24"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zM6.962 7.68c.754 0 1.337.549 1.405 1.2.069.583-.171 1.097-.822 1.406-.343.171-.48.172-.549.069-.034-.069 0-.137.069-.206.617-.514.617-.926.548-1.508-.034-.378-.308-.618-.583-.618-1.2 0-2.914 2.674-2.674 4.629.103.754.549 1.646 1.509 1.646.308 0 .65-.103.96-.24.5-.264.799-.47 1.097-.8-.073-.885.704-2.046 1.851-2.046.515 0 .926.205.96.583.068.514-.377.582-.514.582s-.378-.034-.378-.17c-.034-.138.309-.07.275-.378-.035-.206-.24-.274-.446-.274-.72 0-1.131.994-1.029 1.611.035.275.172.549.447.549.205 0 .514-.31.617-.755.068-.308.343-.514.583-.514.102 0 .17.034.205.171v.138c-.034.137-.137.548-.102.651 0 .069.034.171.17.171.092 0 .436-.18.777-.459.117-.59.253-1.298.253-1.357.034-.24.137-.48.617-.48.103 0 .171.034.205.171v.138l-.136.617c.445-.583 1.097-.994 1.508-.994.172 0 .309.102.309.274 0 .103 0 .274-.069.446-.137.377-.309.96-.412 1.474 0 .137.035.274.207.274.171 0 .685-.206 1.096-.754l.007-.004c-.002-.068-.007-.134-.007-.202 0-.411.035-.754.104-.994.068-.274.411-.514.617-.514.103 0 .205.069.205.171 0 .035 0 .103-.034.137-.137.446-.24.857-.24 1.269 0 .24.034.582.102.788 0 .034.035.069.07.069.068 0 .548-.445.89-1.028-.308-.206-.48-.549-.48-.96 0-.72.446-1.097.858-1.097.343 0 .617.24.617.72 0 .308-.103.65-.274.96h.102a.77.77 0 0 0 .584-.24.293.293 0 0 1 .134-.117c.335-.425.83-.74 1.41-.74.48 0 .924.205.959.582.068.515-.378.618-.515.618l-.002-.002c-.138 0-.377-.035-.377-.172 0-.137.309-.068.274-.376-.034-.206-.24-.275-.446-.275-.686 0-1.13.891-1.028 1.611.034.275.171.583.445.583.206 0 .515-.308.652-.754.068-.274.343-.514.583-.514.103 0 .17.034.205.171 0 .069 0 .206-.137.652-.17.308-.171.48-.137.617.034.274.171.48.309.583.034.034.068.102.068.102 0 .069-.034.138-.137.138-.034 0-.068 0-.103-.035-.514-.205-.72-.548-.789-.891-.205.24-.445.377-.72.377-.445 0-.89-.411-.96-.926a1.609 1.609 0 0 1 .075-.649c-.203.13-.422.203-.623.203h-.17c-.447.652-.927 1.098-1.27 1.303a.896.896 0 0 1-.377.104c-.068 0-.171-.035-.205-.104-.095-.152-.156-.392-.193-.667-.481.527-1.145.805-1.453.805-.343 0-.548-.206-.582-.55v-.376c.102-.754.377-1.2.377-1.337a.074.074 0 0 0-.069-.07c-.24 0-1.028.824-1.166 1.373l-.103.445c-.068.309-.377.515-.582.515-.103 0-.172-.035-.206-.172v-.137l.046-.233c-.435.31-.87.508-1.075.508-.308 0-.48-.172-.514-.412-.206.274-.445.412-.754.412-.352 0-.696-.24-.862-.593-.244.275-.523.553-.852.764-.48.309-1.028.549-1.68.549-.582 0-1.097-.309-1.371-.583-.412-.377-.651-.96-.686-1.509-.205-1.68.823-3.84 2.4-4.8.378-.205.755-.343 1.132-.343zm9.77 3.291c-.104 0-.172.172-.172.343 0 .274.137.583.309.755a1.74 1.74 0 0 0 .102-.583c0-.343-.137-.515-.24-.515z"></path>
+              </g>
+            </svg>
+            <h4>Canva</h4>
+            <p>
+              Aplikasi software ini sering kali saya gunakan untuk mengedit Typografi, design untuk keperluan pribadi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------- END SKILL & TOOLS --------->
+
+    <!-------- START PROJECT --------->
+
+    <section id="portofolios">
+      <div class="portofolios main-container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <h1>Project</h1>
+
+        <div class="grid-3">
+          <!-- Project Pertama-->
+          <div class="portofolio">
+            <div class="portofolio-cover">
+              <img src="/pictures/Streetwear.png" />
+            </div>
+
+            <div class="portofolio-info">
+              <div class="portofolio-title">
+                <h4>Design Streetwear</h4>
+                <a href="#" class="portofolio-link">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z" />
+                  </svg>
+                </a>
+              </div>
+
+              <div class="portofolio-tags">
+                <div>Photoshop</div>
+                <div>Ilustrator</div>
+              </div>
+
+              <p>
+                Kumpulan Design Streetwear yang saya buat dengan hasil dan ide diri sendiri. Sudah ada Design streetwear yang di cetak.
+              </p>
+            </div>
+          </div>
+
+          <!-- Project Kedua-->
+          <div class="portofolio">
+            <div class="portofolio-cover">
+              <img src="/pictures/logoDesign.png" />
+            </div>
+
+            <div class="portofolio-info">
+              <div class="portofolio-title">
+                <h4>Logo Design</h4>
+                <a href="https://www.instagram.com/rohis.smatamhar1_/" class="portofolio-link">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z" />
+                  </svg>
+                </a>
+              </div>
+
+              <div class="portofolio-tags">
+                <div>Photoshop</div>
+                <div>Ilustrator</div>
+              </div>
+
+              <p>
+                Logo Design yang saya ikut sertakan dalam lomba Logo Rohis SMA Taman Harapan 1 Kota Bekasi. Saya mendapatkan Juara 1 dan logo saya terpilih.<br/> cek di <span><a href="https://www.instagram.com/rohis.smatamhar1_/">@rohis.smatamhar1_</a></span>
+              </p>
+            </div>
+          </div>
+
+          <!-- Project Ketiga-->
+          <div class="portofolio">
+            <div class="portofolio-cover">
+              <img src="/pictures/personalPorto.png" />
+            </div>
+
+            <div class="portofolio-info">
+              <div class="portofolio-title">
+                <h4>Personal Portofolio</h4>
+                <a href="#" class="portofolio-link">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z" />
+                  </svg>
+                </a>
+              </div>
+
+              <div class="portofolio-tags">
+                <div>HTML</div>
+                <div>CSS</div>
+                <div>JS</div>
+              </div>
+
+              <p>
+                Personal Portofolio Web pertama saya yang di publikasikan untuk di perlihatkan. saya membuat Personal Portofolio Web ini dalam waktu 5 hari pengerjaan. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------- END PROJECT --------->
+
+    <!-------- START CONTACT --------->
+
+    <section id="contact" class="contact">
+      <div class="menu-container">
+        <span class="blure"></span>
+        <span class="blure"></span>
+        <h1>Contact</h1>
+        <div class="contact-wrapper">
+          <div class="contact-form">
+            <h3>Send my a message</h3>
+            <form action="https://formspree.io/f/xjvnzndq" method="POST">
+              <div class="menu-from">
+                <input type="text" name="name" placeholder="Your Name" />
+              </div>
+              <div class="menu-from">
+                <input type="email" name="email" placeholder="Your Email" />
+              </div>
+              <div class="menu-from">
+                <textarea
+                  name="message"
+                  placeholder="Your Message"
+                  id=""
+                  cols="30"
+                  rows="10"></textarea>
+              </div>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p><i class="ph ph-phone-call"></i>+62 123 456 789</p>
+            <p><i class="ph ph-envelope"></i>firmanluthfidev@gmail.com</p>
+            <p><i class="ph ph-map-pin-line"></i>Bekasi, Jawa Barat, Indonesia</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------- END CONTACT --------->
+
+    <!-------- START SAY HI --------->
+
+    <section id="say-hi" class="say-hi">
+      <div class="menu-container-sayhi">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <h1>SAY HI!!!</h1>
+        <div class="icon-sosmed">
+          <a href="https://www.instagram.com/fiiluthfiii/"
+            ><i
+              ><box-icon
+                class="menu-sosmed"
+                type="logo"
+                name="instagram-alt"></box-icon></i
+          ></a>
+          <a href=""
+            ><i
+              ><box-icon
+                class="menu-sosmed"
+                name="linkedin-square"
+                type="logo"></box-icon></i
+          ></a>
+          <a href=""
+            ><i
+              ><box-icon
+                class="menu-sosmed"
+                name="facebook-square"
+                type="logo"></box-icon></i
+          ></a>
+          <a href=""
+            ><i
+              ><box-icon
+                class="menu-sosmed"
+                type="logo"
+                name="twitter"></box-icon></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-------- END SAY HI --------->
+
+    <!-------- START FOOTER --------->
+
+    <footer>
+      <div class="footerContainer">
+        <div class="sosialIcons">
+          <a href="https://www.instagram.com/fiiluthfiii/"><box-icon type="logo" name="instagram-alt"></box-icon></a>
+          <a href=""><box-icon name="linkedin-square" type="logo"></box-icon</a>
+          <a href=""><box-icon name="facebook-square" type="logo"></box-icon></a>
+          <a href=""><box-icon type="logo" name="twitter"></box-icon></a>
+        </div>
+        <div class="footerNav">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Experience</a></li>
+            <li><a href="">Project</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footerBottom">
+        <p>Copyright &copy;2024; Designed by <span class="designer">FIILUTHFIII</span></p>
+      </div>
+    </footer>
+
+    <!-------- END FOOTER --------->
+
+    <script src="/script.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>
